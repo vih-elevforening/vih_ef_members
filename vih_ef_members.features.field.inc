@@ -10,7 +10,7 @@
 function vih_ef_members_field_default_fields() {
   $fields = array();
 
-  // Exported field: 'taxonomy_term-year-field_year_picture'
+  // Exported field: 'taxonomy_term-year-field_year_picture'.
   $fields['taxonomy_term-year-field_year_picture'] = array(
     'field_config' => array(
       'active' => '1',
@@ -31,6 +31,7 @@ function vih_ef_members_field_default_fields() {
           0 => 'fid',
         ),
       ),
+      'locked' => '0',
       'module' => 'image',
       'settings' => array(
         'default_image' => 0,
@@ -71,6 +72,7 @@ function vih_ef_members_field_default_fields() {
       'required' => 0,
       'settings' => array(
         'alt_field' => 0,
+        'default_image' => 0,
         'file_directory' => 'years',
         'file_extensions' => 'png jpg jpeg',
         'max_filesize' => '',
